@@ -55,6 +55,67 @@ const IndividualEdventureDetail = () => {
           <li>Shipping and Handling</li>
         </ul>
       </div>
+      <div className="overflow-x-auto mt-3">
+      <table className="min-w-full">
+        <tbody>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 2</td>
+            <td className="p-2">Washington DC</td>
+            <td className="p-2">3 days/units</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 3</td>
+            <td className="p-2">Atlanta</td>
+            <td className="p-2">2 days/units</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 4</td>
+            <td className="p-2">New Orleans</td>
+            <td className="p-2">3 days/units</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 5</td>
+            <td className="p-2">Charleston</td>
+            <td className="p-2">1 day/unit</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 6</td>
+            <td className="p-2">Nashville</td>
+            <td className="p-2">1 day/unit</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 7</td>
+            <td className="p-2">Florida</td>
+            <td className="p-2">2 days/unit</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 8</td>
+            <td className="p-2">San Francisco</td>
+            <td className="p-2">2 days/unit</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 9</td>
+            <td className="p-2">San diego</td>
+            <td className="p-2">2 days/unit</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 10</td>
+            <td className="p-2">Sacramento</td>
+            <td className="p-2">1 day/unit</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Edventure # 11</td>
+            <td className="p-2">New York City</td>
+            <td className="p-2">1 day/unit</td>
+          </tr>
+          <tr className="even:bg-gray-100">
+            <td className="p-2">Bonus video</td>
+            <td className="p-2">Holidays around the world</td>
+            <td className="p-2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
       <CitiesModal isOpen={isModalOpen} onClose={closeModal} />
     </div>
   );
